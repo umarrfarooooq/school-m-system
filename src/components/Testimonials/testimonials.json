@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "name": "Ahmed Khan",
+        "position": "Principal",
+        "msg": "Platform's blessing, exceptional service helped find ideal solutions."
+    },
+    {
+        "id": 2,
+        "name": "Umar Hassan",
+        "position": "Vice Principal",
+        "even": true,
+        "msg": "Grateful for platform, user-friendly interface made managing school easier."
+    },
+    {
+        "id": 3,
+        "name": "Mohammed Ali",
+        "position": "Operations Manager",
+        "msg": "Reliable solution in school management, exceeded expectations."
+    },
+    {
+        "id": 4,
+        "name": "Ibrahim Malik",
+        "position": "Sales Manager",
+        "even": true,
+        "msg": "Highly recommend platform, diverse job listings played significant role in school's success."
+    },
+    {
+        "id": 5,
+        "name": "Zaid Amin",
+        "position": "Marketing Manager",
+        "msg": "Platform pivotal in school operations, impacted institution's growth."
+    },
+    {
+      "id": 6,
+      "name": "Fatima Ali",
+      "position": "HR Manager",
+      "msg": "Grateful for platform's support, improved recruitment processes and team efficiency."
+    }
+]
