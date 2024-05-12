@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "./img/logoo.svg"
 import "./Footer.css"
+import Image from 'next/image';
 
 function Footer() {
 
@@ -12,7 +13,7 @@ function Footer() {
           <div className="mb-6 md:mb-0">
           <div className="flex items-center">
             <a href="/">
-              <img src={logo.src} className=" h-24" alt="Company Logo" />
+              <Image src={logo} width={100}  className="h-24" alt="Company Logo" />
             </a>
           </div>
           <div className='footerDesc md:w-max lg:mr-20'>

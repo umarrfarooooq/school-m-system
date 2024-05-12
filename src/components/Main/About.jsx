@@ -30,7 +30,7 @@ const About = () =>{
                     
                     </div>
                     <div className="lg:mt-0 lg:col-span-5 lg:flex justify-end h-full container lg:w-full lg:p-0">
-                    <Image className="object-cover object-top h-[20rem] lg:h-[45rem]" style={imageStyle} src={AboutSectionImage} alt="About section" />
+                    <Image className="object-cover object-top h-[20rem] lg:h-[45rem]" style={imageStyle} src={AboutSectionImage} alt="About section Main Image" />
                     <img />
                     <span className="inline-block lg:hidden mt-6 w-full">
                     <Link className="bg-[#FFF500] w-full inline-block text-center text-gray-800 font-bold rounded-lg px-8 py-4" href="#">
