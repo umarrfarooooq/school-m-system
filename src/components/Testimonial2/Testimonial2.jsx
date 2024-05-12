@@ -14,7 +14,7 @@ export function Testimonial2() {
           </p>
           <div className="w-full max-w-md">
             <Carousel className="w-full">
-              <CarouselContent className="absolute">
+              <CarouselContent>
                 <CarouselItem>
                   <Card className="h-full">
                     <CardContent className="flex flex-col items-start justify-between gap-4 p-6">
@@ -71,13 +71,13 @@ export function Testimonial2() {
                     </CardContent>
                   </Card>
                 </CarouselItem>
-                <CarouselPrevious className={`absolute top-3/4 right-8 -translate-y-1/2`}>
+              </CarouselContent>
+              <CarouselPrevious className={`absolute top-3/4 right-8 -translate-y-1/2`}>
                 <ChevronLeftIcon className="h-6 w-6" />
                 </CarouselPrevious>
                 <CarouselNext className="absolute top-3/4 right-12 -translate-y-1/2">
                 <ChevronRightIcon className="h-6 w-6" />
                 </CarouselNext>
-              </CarouselContent>
             </Carousel>
           </div>
         </div>
