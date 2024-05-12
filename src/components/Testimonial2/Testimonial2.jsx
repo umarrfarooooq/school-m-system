@@ -19,8 +19,8 @@ export function Testimonial2() {
                   <Card className="h-full">
                     <CardContent className="flex flex-col items-start justify-between gap-4 p-6">
                       <blockquote className="text-lg font-medium leading-relaxed">
-                        "The teachers are amazing and really care about the students. I've learned so much and feel
-                        prepared for the future."
+                        The teachers are amazing and really care about the students. I've learned so much and feel
+                        prepared for the future.
                       </blockquote>
                       <div>
                         <div className="font-medium">Jane Doe</div>
@@ -33,8 +33,8 @@ export function Testimonial2() {
                   <Card className="h-full">
                     <CardContent className="flex flex-col items-start justify-between gap-4 p-6">
                       <blockquote className="text-lg font-medium leading-relaxed">
-                        "The school has a great community and I've made so many friends. The extracurricular
-                        activities are also really fun and engaging."
+                        The school has a great community and I've made so many friends. The extracurricular
+                        activities are also really fun and engaging.
                       </blockquote>
                       <div>
                         <div className="font-medium">Michael Johnson</div>
@@ -47,8 +47,8 @@ export function Testimonial2() {
                   <Card className="h-full">
                     <CardContent className="flex flex-col items-start justify-between gap-4 p-6">
                       <blockquote className="text-lg font-medium leading-relaxed">
-                        "The school's focus on STEM education has really challenged me and helped me grow. I feel
-                        well-prepared for college and my future career."
+                        The school's focus on STEM education has really challenged me and helped me grow. I feel
+                        well-prepared for college and my future career.
                       </blockquote>
                       <div>
                         <div className="font-medium">Emily Garcia</div>
@@ -61,8 +61,8 @@ export function Testimonial2() {
                   <Card className="h-full">
                     <CardContent className="flex flex-col items-start justify-between gap-4 p-6">
                       <blockquote className="text-lg font-medium leading-relaxed">
-                        "The school's commitment to diversity and inclusion has been really inspiring. I feel valued
-                        and supported as a student."
+                        The school's commitment to diversity and inclusion has been really inspiring. I feel valued
+                        and supported as a student.
                       </blockquote>
                       <div>
                         <div className="font-medium">Liam Patel</div>
