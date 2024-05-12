@@ -12,16 +12,16 @@ export function Navbar() {
         <span className="ml-2 text-lg font-bold">EDU BRAINS</span>
       </Link>
       <nav className="hidden items-center gap-8 text-sm font-medium md:flex">
-        <Link className="hover:text-gray-900 dark:hover:text-gray-50" href="#">
+        <Link href="#">
           Home
         </Link>
-        <Link className="hover:text-gray-900 dark:hover:text-gray-50" href="#">
+        <Link href="#">
           About
         </Link>
-        <Link className="hover:text-gray-900 dark:hover:text-gray-50" href="#">
+        <Link href="#">
           Courses
         </Link>
-        <Link className="hover:text-gray-900 dark:hover:text-gray-50" href="#">
+        <Link href="#">
           Contact
         </Link>
         <Link className="bg-[#9747FF] text-white rounded-2xl px-8 py-4" href="#">

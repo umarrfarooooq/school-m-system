@@ -12,7 +12,7 @@ const About = () =>{
                 <div className="py-8 lg:py-0 flex flex-col lg:flex-row lg:items-center lg:justify-between mx-auto lg:gap-6">
                     <div className="mainCont w-full lg:ml-12 xl:ml-20 2xl:mr-20 2xl:ml-0 h-full lg:flex items-end justify-end lg:p-0 container">
                     <div className="flex flex-col gap-4 md:gap-8 lg:gap-12">
-                    <h1 style={{lineHeight:"1.3"}} className="max-w-2xl text-gray-800 mb-2 md:mb-3 lg:mb-4 text-2xl lg:text-5xl font-bold tracking-tight leading-none md:text-5xl dark:text-white">
+                    <h1 style={{lineHeight:"1.3"}} className="max-w-2xl text-gray-800 mb-2 md:mb-3 lg:mb-4 text-2xl lg:text-5xl font-bold tracking-tight leading-none md:text-5xl">
                     About <br></br><span>EDUBRAINS</span>
                     <div className="h-5 w-1/2 bg-[#9747FF] rounded-2xl mt-2"></div>
                     </h1>
