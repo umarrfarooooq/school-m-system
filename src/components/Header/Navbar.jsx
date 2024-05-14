@@ -6,8 +6,8 @@ export function Navbar() {
   return (
   <div>
     <header
-      className="flex h-20 w-full items-center justify-between px-4 md:px-6 lg:px-8 container">
-      <Link className="flex items-center" href="#">
+      className="flex h-20 w-full items-center justify-between container">
+      <Link className="flex items-center" href="/">
         <SchoolIcon className="h-6 w-6" />
         <span className="ml-2 text-lg font-bold">EDU BRAINS</span>
       </Link>
@@ -15,10 +15,10 @@ export function Navbar() {
         <Link href="#">
           Home
         </Link>
-        <Link href="#">
+        <Link href="/about">
           About
         </Link>
-        <Link href="#">
+        <Link href="/courses">
           Courses
         </Link>
         <Link href="#">
@@ -40,10 +40,10 @@ export function Navbar() {
             <Link className="font-medium hover:underline" href="#">
               Home
             </Link>
-            <Link className="font-medium hover:underline" href="#">
+            <Link className="font-medium hover:underline" href="/about">
               About
             </Link>
-            <Link className="font-medium hover:underline" href="#">
+            <Link className="font-medium hover:underline" href="/courses">
               Courses
             </Link>
             <Link className="font-medium hover:underline" href="#">

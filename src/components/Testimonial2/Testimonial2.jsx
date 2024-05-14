@@ -6,7 +6,7 @@ export function Testimonial2() {
   return (<>
     <main className="w-full">
       <section
-        className="grid w-full container grid-cols-1 gap-8 px-4 py-12 md:grid-cols-2 md:gap-12 md:px-6 lg:px-8 lg:py-16">
+        className="grid w-full container grid-cols-1 gap-8 py-12 md:grid-cols-2 md:gap-12 lg:py-16">
         <div className="space-y-6">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">What Our Students Say</h2>
           <p className="text-gray-500 md:text-lg">
@@ -82,16 +82,12 @@ export function Testimonial2() {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <Image
-            alt="School Image"
-            className="rounded-lg object-cover"
-            height="400"
+        <Image
+            alt="Courses"
+            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+            height="550"
             src={SchoolImage}
-            style={{
-              aspectRatio: "600/400",
-              objectFit: "cover",
-            }}
-            width="600" />
+            width="550" />
         </div>
       </section>
     </main>
