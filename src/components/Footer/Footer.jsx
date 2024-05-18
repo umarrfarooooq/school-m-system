@@ -6,8 +6,8 @@ import Image from 'next/image';
 function Footer() {
 
   return (
-    <div style={{backgroundColor:"#9747FF", color:"white"}}>
-    <footer className="p-4 sm:p-6 container">
+    <div style={{backgroundColor:"#420f19", color:"white"}}>
+    <footer className="py-4 sm:py-6 container">
       <div>
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -108,7 +108,7 @@ function Footer() {
               </ul>
             </div>
             <div className='paymentIcons'>
-              <div className='bg-[#a763ff] rounded-lg p-4 z-10'>
+              <div className='bg-[#A91D3A] rounded-lg p-4 z-10'>
               <p className='text-center mb-[.62rem]'>Secure Payment Through</p>
                 <div className='flex items-center justify-between gap-[.62rem] '>
                   <span>
@@ -182,7 +182,7 @@ function Footer() {
             </div>
             <div className='justify-self-end hidden sm:block'>
               <a href='#'>
-                <div className={`w-min group hover:bg-[#9747FF] hover:border-[#9747FF] cursor-pointer active:bg-[#9747FF] active:border-[#9747FF] border border-[#d4d4d4] p-3 rounded-lg`}>
+                <div className={`w-min group cursor-pointer darkBtn border border-[#d4d4d4] p-3 rounded-lg`}>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" className="stroke-[#d4d4d4] group-hover:stroke-white">
                     <path d="M12 19L12 5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M19 12L12 5L5 12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

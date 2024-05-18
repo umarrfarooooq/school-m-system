@@ -1,11 +1,11 @@
 import React from "react";
-import "./Services.css"
 import ServiceCard from "./Service-Card";
 import Link from "next/link";
 import Teacher from "./images/teacher.png"
+import CustomBtn from "../ui/CustomBtn";
 const Services = () =>{
     return(
-        <section className="services-section text-white">
+        <section className="services-section dark-bg-low-opacity">
             <div className="py-8 sm:py-16 container">
                 <div className=" mb-4 lg:mb-8 flex items-center justify-center flex-col sm:flex-row">
                 <h2 className="text-lg sm:text-xl md:text-4xl tracking-tight font-semibold">Our Teachers</h2>
@@ -39,9 +39,7 @@ const Services = () =>{
                 <div className="w-full flex items-center justify-center my-4 lg:my-16">
                 <button>
                     <div className="flex items-center">
-                        <Link className="bg-[#FFF500] w-full inline-block text-center text-gray-800 font-bold rounded-lg px-8 py-2" href="#">
-                            See All
-                        </Link>
+                    <CustomBtn />
                     </div>
  
                 </button>

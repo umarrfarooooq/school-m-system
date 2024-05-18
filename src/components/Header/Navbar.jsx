@@ -4,7 +4,7 @@ import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet"
 
 export function Navbar() {
   return (
-  <div>
+  <div className="white-bg-color">
     <header
       className="flex h-20 w-full items-center justify-between container">
       <Link className="flex items-center" href="/">
@@ -12,7 +12,7 @@ export function Navbar() {
         <span className="ml-2 text-lg font-bold">EDU BRAINS</span>
       </Link>
       <nav className="hidden items-center gap-8 text-sm font-medium md:flex">
-        <Link href="#">
+        <Link href="/">
           Home
         </Link>
         <Link href="/about">
@@ -21,11 +21,8 @@ export function Navbar() {
         <Link href="/courses">
           Courses
         </Link>
-        <Link href="#">
+        <Link href="/contact">
           Contact
-        </Link>
-        <Link className="bg-[#9747FF] text-white rounded-2xl px-8 py-4" href="#">
-          Login
         </Link>
       </nav>
       <Sheet>
@@ -37,7 +34,7 @@ export function Navbar() {
         </SheetTrigger>
         <SheetContent side="right">
           <div className="grid gap-6 p-6">
-            <Link className="font-medium hover:underline" href="#">
+            <Link className="font-medium hover:underline" href="/">
               Home
             </Link>
             <Link className="font-medium hover:underline" href="/about">
@@ -46,11 +43,8 @@ export function Navbar() {
             <Link className="font-medium hover:underline" href="/courses">
               Courses
             </Link>
-            <Link className="font-medium hover:underline" href="#">
+            <Link className="font-medium hover:underline" href="/contact">
               Contact
-            </Link>
-            <Link className="font-medium hover:underline" href="#">
-              Login
             </Link>
           </div>
         </SheetContent>

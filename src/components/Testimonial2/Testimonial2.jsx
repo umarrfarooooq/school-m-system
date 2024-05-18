@@ -4,7 +4,7 @@ import SchoolImage from "@/components/Main/images/About.png"
 import Image from "next/image";
 export function Testimonial2() {
   return (<>
-    <main className="w-full">
+    <main className="w-full" style={{background:'linear-gradient(90deg, rgba(199,54,89,.1) 0%, rgba(238,238,238,.2) 100%)'}}>
       <section
         className="grid w-full container grid-cols-1 gap-8 py-12 md:grid-cols-2 md:gap-12 lg:py-16">
         <div className="space-y-6">

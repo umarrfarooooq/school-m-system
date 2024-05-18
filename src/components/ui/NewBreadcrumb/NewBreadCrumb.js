@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import mainImage from "./services-breadcrumb.png"
+import "@/app/globals.css"
+
 import Image from "next/image";
 const NewBreadCrumb = (props) =>{
 
@@ -14,21 +16,21 @@ const NewBreadCrumb = (props) =>{
     return(
         <>
             <section className="py-10 container">
-                <div className="grid rounded-3xl py-10 lg:gap-8 xl:gap-0 lg:grid-cols-12 lg:bg-[#FFFBFA]">
+                <div className="grid rounded-3xl md:py-10 lg:gap-8 xl:gap-0 lg:grid-cols-12 lg:bg-[#FFFBFA]">
                     <div className="mainCont lg:pl-10 mr-auto place-self-center lg:col-span-7">
                     <p className="max-w-2xl text-xs mb-6 font-medium lg:mb-8 md:text-base" style={{color: "#8C979C"}}>
-                    Home / <span className="text-[#262F32]">{props.pageName}</span>
+                    Home / <span className="black-text-color">{props.pageName}</span>
                     </p>
-                    <h1 style={{color: "#262F32", lineHeight:"1.3"}} className="max-w-2xl mb-2 md:mb-3 lg:mb-4 text-2xl lg:text-5xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                    <h1 className="black-text-color max-w-2xl mb-2 md:mb-3 lg:mb-4 text-2xl lg:text-5xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
                     {props.title}
                     </h1>
                     
-                    <p style={{color: "var(--neutral-700, #434146)"}} className="max-w-2xl mb-6 text-justify font-normal lg:mb-8 text-sm md:text-lg">
+                    <p className="black-text-color max-w-2xl mb-6 text-justify font-normal lg:mb-8 text-sm md:text-lg">
                     {props.discription}                    
                     </p>
                     {props.buttonTxt && <span>
                         <Link href="/contact" className="font-medium text-center rounded-lg">
-                            <button className="text-[#FFFBFA] bg-[#107243] px-3 py-1">Learn More</button>
+                            <button className="text-[#FFFBFA] dark-bg-color px-3 py-1">Learn More</button>
                         </Link>
                     </span>}
                     

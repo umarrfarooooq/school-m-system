@@ -1,6 +1,8 @@
 import Link from "next/link";
 import HeroSectionImage from "./images/HeroImage.svg"
 import React from "react";
+import "@/app/globals.css"
+import CustomBtn from "../ui/CustomBtn";
 import Image from "next/image";
 const Hero = () =>{
     const imageStyle = {
@@ -9,20 +11,18 @@ const Hero = () =>{
     }
     return(
         <>
-            <section style={{background:'#9747FF'}}>
+            <section style={{background:'linear-gradient(90deg, rgba(199,54,89,1) 0%, rgba(169,29,58,1) 30%, rgba(21,21,21,1) 100%)'}}>
                 <div className="grid py-8 mx-auto lg:gap-6 lg:py-16 lg:grid-cols-12 container">
                     <div className="mainCont mr-auto place-self-center lg:col-span-7">
-                    <h1 style={{color: "#FFFBFA", lineHeight:"1.3"}} className="max-w-2xl mb-2 md:mb-3 lg:mb-4 text-2xl lg:text-5xl font-bold tracking-tight leading-none md:text-5xl dark:text-white">
-                    WHERE EDUCATION MEETS <br></br><span style={{color: "#FFF500"}}>INSPIRATION</span>
+                    <h1 style={{lineHeight:"1.3"}} className="max-w-2xl white-text-color mb-2 md:mb-3 lg:mb-4 text-2xl lg:text-5xl font-bold tracking-tight leading-none md:text-5xl dark:text-white">
+                    WHERE EDUCATION MEETS <br></br><span className="text-[#ff718d]">INSPIRATION</span>
                     </h1>
                     
-                    <p style={{color: "var(--neutral-700, #FFFBFA)"}} className="max-w-2xl mb-6 text-justify font-normal lg:mb-8 text-sm md:text-[1rem]">
-                    Lorem ipsum dolor sit amet consectetur. Justo arcu massa purus dictum a odio. Elementum quis morbi sagittis sit sed ut amet est posuere. Egestas condimentum porttitor nulla amet vestibulum vitae fusce consectetur accumsan. Id augue senectus eget nunc a elementum netus volutpat cursus. Mauris nunc massa nascetur vel purus semper. Ultricies massa nunc a viverra sodales morbi risus nibh. Volutpat velit purus magna nisl arcu sit. Lectus eleifend quam et volutpat lorem pellentesque egestas. Feugiat pellentesque in felis nec at tellus placerat.
+                    <p className="white-text-color max-w-2xl mb-6 text-justify font-normal lg:mb-8 text-sm md:text-[1rem]">
+                    Lorem ipsum dolor sit amet consectetur. Justo arcu massa purus dictum a odio. Elementum quis morbi sagittis sit sed ut amet est posuere. Egestas condimentum porttitor nulla amet vestibulum vitae fusce consectetur accumsan
                     </p>
                     <span  className="hidden lg:inline-block">
-                    <Link className="bg-[#FFF500] text-gray-800 font-bold rounded-lg px-8 py-4" href="#">
-                        Enroll Now
-                    </Link>
+                    <CustomBtn btnTxt="Enroll Now" borderClr="true" />
                     </span>
                     
                     </div>
